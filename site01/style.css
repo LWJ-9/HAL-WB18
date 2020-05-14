@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+  body{
+    text-align: center;
+    color: #900b09;
+    background-color: #fff;
+    background-image: url(./img/akubi.jpg);
+  }
+
+    header{
+      width: 800px;
+      margin: 0 auto 0 auto;
+      background-color: #f5f5f5;
+      padding: 10px 0 10px 0;
+    }
+      header h1{margin: 0 0 0 0;}
+
+
+    nav{
+      width: 800px;
+      margin: 0 auto 0 auto;
+      padding: 0 0 20px 0;
+      background-color: #f5f5f5;
+    }
+      nav ul{}
+        nav ul li{
+      display: inline-block;
+      margin: 0 10px;
+    }
+          nav ul li a:link{color: #f80; text-decoration: none;}
+          nav ul li a:visited{color: #f80;}
+          nav ul li a:hover{color: #fff; text-decoration: underline;}
+          nav ul li a:active{color: #f00;}
+
+    main{
+      width: 800px;
+      margin: 0 auto 0 auto;
+      background-color: #f5f5f5;
+    }
+      main h2{
+        padding: 0 0 10px 0;
+      }
+      main table{
+      margin: 0 auto 20px auto;
+      /*border: 1px #000 solid;*/
+/*      border-width:1px 5px 10px 20px;
+      border-color:#000 #555 #111 #ddd;
+      border-style:solid dashed dotted double;*/
+    }
+        main table th{
+        padding: 5px;
+        border: 1px #000 solid;
+
+        }
+        main table td{
+        padding: 5px;
+        border: 1px #000 solid;
+
+        }
+      main hr{
+        width: 95%;
+        margin: 0 auto 20px auto;
+        border: 100px #000 dotted;
+        border-width: 10px 0 0 0;
+      }
+      main figure{
+        padding: 0 0 20px 0;
+      }
+        main a{}
+        main figure img{
+          vertical-align: bottom;
+        }
+
+    footer{
+      width: 800px;
+      margin: 0 auto 0 auto;
+      background-color: #90ff0f;
+    }

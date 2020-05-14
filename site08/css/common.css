@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/* 初期設定のリセット */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: left;
+  line-height: 1;
+  color: #000;
+  background-color: rgb(255, 225, 230);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#wrap{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: lightgoldenrodyellow;
+  padding: 20px 0 0 20px;
+  margin-left: calc(596px /-2);
+  margin-top: calc(460px /-2);
+  animation: drop 1.2s ease;
+  border-radius: 30px;
+}
+  .box{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+    .box input[type="button"]{
+      border: 2px solid #00f;
+      border-radius: 20px;
+      transition: all 0.1s;
+    }
+    .box input[type="button"]:hover{
+      color: white;
+      background-color: rgb(57, 57, 252);
+
+    }
+    .box input[type="button"]:active{
+      background-color: #88f;
+
+    }
+    .box input[type="image"]{
+      height: 200px;
+    }
+    .box input[type="image"]:hover{
+      border: 2px solid rgb(214, 44, 44);
+
+    }
+    .box input[type="image"]:active{
+      opacity: 0.8;
+    }
+    .box a{
+      color: white;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+      background-color: lightblue;
+      height: 200px;
+      width: 268px;
+      text-decoration: none;
+    }
+    .box a:visited{
+      color: white;
+    }
+    .box a:hover{
+      color: lightblue;
+      border: 2px solid;
+      border-color: lightblue;
+      background-color: white;
+    }
+    .box a:active{
+      opacity: 0.8;
+    }
+
+    .box #crea{
+      /* display: table-cell;
+      text-align: center;
+      vertical-align: middle; */
+      text-align:center;
+      line-height:200px;
+      background-color: lightcoral;
+      height: 200px;
+      width: 268px;
+    }
+    .box:hover #crea{
+      transform: scale(90%);
+    }
+    .box #crea:active{
+      opacity: 0.8;
+      animation: jump 0.1s ease;
+    }
+
+
+
+
+.btn_des{
+  height: 200px;
+  width: 268px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.1s;
+  box-sizing: border-box;
+}
+
+
+@keyframes drop {
+  0%{
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes jump {
+  50%{
+    transform: translateY(-20%);
+  }
+}
+
+@keyframes around {
+
+  20%{
+    transform: translateY(50%);
+  }
+  40%{
+    transform: translateX(-50%);
+  }
+  60%{
+    transform: translateY(-50%);
+  }  80%{
+    transform: translateX(50%);
+  }
+  100%{
+    /* transform: translateY(); */
+  }
+
+}

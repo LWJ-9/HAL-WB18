@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/* ! index.html のcssファイル */
+
+main {
+  clear: left;
+  padding: 20px 25px;
+  background-color: #fff;
+}
+  main section{
+    border-bottom: 2px dashed #ffbd4f;
+    margin-bottom: 15px;
+  }
+      main section h2{
+        width: 100px;
+        padding: 8px 6px 6px 6px;
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+        border: 1px #ffbd4f solid;
+        border-left-width: 15px;
+        border-right-color: #d1b282;
+        border-bottom-color: #d1b282;
+      }
+      main section p{
+        margin-bottom: 15px;
+        padding-left: 21px;
+        line-height: 1.6;
+      }
+      main section ul{
+        margin-left: 60px;
+        margin-bottom: 15px;
+        list-style-image: url(../images/circle.gif);
+      }
+        main section ul li{
+          margin-bottom: 10px;
+        }
+      main section table{
+        margin: 0 auto;
+        width: 600px;
+        margin-bottom: 15px;
+        border-collapse: separate;
+        border-spacing: 5px;
+      }
+        main section table tr{}
+          main section table tr td ,main section table tr th{
+            padding: 5px;
+            background-color: #fff0d6;
+            vertical-align: middle;
+            text-align: center;
+          }
+              main section table tr td.photo{width: 300px; }
+              main section table tr td.cas_name{width: 80px; }
+              main section table tr td img{
+                vertical-align: bottom;
+              }
+
+    main section#nara{
+    }
+            main section#nara div table tr td.text{
+              text-align: left;
+              width: 550px;
+            }
+            main section#nara div table tr td img.big{
+              width: 280px;
+            }
+            main section#nara div table tr td.text p{
+              padding: 3px;
+              margin-bottom: 8px;
+            }
+            main section#nara div table tr td.text p.name{
+              font-size: 18px;
+              font-weight: bold;
+              line-height: 25px;
+            }
+
+            main section#nara div table tr td.text p.categories{
+              color: #666;
+              padding-bottom: 5px;
+              line-height: 14px;
+              font-size: 12px;
+}
+            main section#nara div table tr td.text span.star{
+              position: relative;
+              width: 110px;
+              height: 21px;
+              display: block;
+              float: left;
+            }
+
+              main section#nara div table tr td.text span.star span.starBk{
+                position: absolute;
+                background: url("../images/star.png") no-repeat 0 0;
+                width: 110px;
+                height: 21px;
+                top: 0;
+                left: 0;
+                z-index: 5;
+              }
+              main section#nara div table tr td.text span.star span.starFore{
+                position: absolute;
+                background: url("../images/star.png") no-repeat 0 -22px;
+                top: 0;
+                left: 0;
+                height: 21px;
+                z-index: 10;
+              }
+              main section#nara div table tr td.text span.point{
+                float: left;
+                font-size: larger;
+                line-height: 21px;
+              }
+
+              .star0-0, .star0-1, .star0-2, .star0-3, .star0-4, .star0-5, .star0-6, .star0-7, .star0-8, .star0-9 {
+                width: 0;
+              }
+              .star1-0, .star1-1 {
+                width: 22px;
+              }
+              .star1-2, .star1-3 {
+                width: 30px;
+              }
+              .star1-4, .star1-5, .star1-6 {
+                width: 33px;
+              }
+              .star1-7, .star1-8, .star1-9 {
+                width: 35px;
+              }
+              .star2-0 {
+                width: 44px;
+              }
+              .star2-1, .star2-2, .star2-3 {
+                width: 52px;
+              }
+              .star2-4, .star2-5, .star2-6 {
+                width: 55px;
+              }
+              .star2-7, .star2-8, .star2-9 {
+                width: 57px;
+              }
+              .star3-0 {
+                width: 66px;
+              }
+              .star3-1, .star3-2, .star3-3 {
+                width: 74px;
+              }
+              .star3-4, .star3-5, .star3-6 {
+                width: 77px;
+              }
+              .star3-7, .star3-8, .star3-9 {
+                width: 79px;
+              }
+              .star4-0 {
+                width: 88px;
+              }
+              .star4-1, .star4-2, .star4-3 {
+                width: 96px;
+              }
+              .star4-4, .star4-5, .star4-6 {
+                width: 99px;
+              }
+              .star4-7, .star4-8, .star4-9 {
+                width: 101px;
+              }
+              .star5-0 {
+                width: 110px;
+              }
+
+            main section#nara div table tr td.text div.reviewText{
+              background: url("../images/review_balloon.png") no-repeat 28px top;
+              padding-top: 10px;
+              clear: both;
+            }
+            main section#nara div table tr td.text div.reviewText p{
+              background-color: #eee;
+              border-radius: 5px;
+              font-size: smaller;
+              padding: 8px;
+            }
+            main section#nara div table tr td.text div.reviewText p span{
+              display: inline-block;
+              color: #666;
+              font-size: 10px;
+              text-align: right;
+            }
+            main section#nara div table tr td.text p.desc{
+              font-size: 11px;
+              line-height: 16px;
+              margin-top: 8px;
+              text-align: justify;
+            }
+
+
+
+
+      /* !EOF */

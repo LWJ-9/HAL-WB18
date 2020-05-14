@@ -1,0 +1,158 @@
+
+main {
+  clear: left;
+  padding: 20px 25px;
+  background-color: #fff;
+}
+  main section{
+    border-bottom: 2px dashed #ffbd4f;
+    margin-bottom: 15px;
+  }
+      main section h2{
+        width: 300px;
+        padding: 8px 6px 6px 6px;
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+        border: 1px #ffbd4f solid;
+        border-left-width: 15px;
+        border-right-color: #d1b282;
+        border-bottom-color: #d1b282;
+      }
+      main section p{
+        margin-bottom: 15px;
+        padding-left: 21px;
+        line-height: 1.6;
+      }
+      main section ul{
+        margin-left: 60px;
+        margin-bottom: 15px;
+        list-style-image: url(../images/circle.gif);
+      }
+        main section ul li{
+          margin-bottom: 10px;
+        }
+      main section table{
+        margin: 0 auto;
+        width: 600px;
+        margin-bottom: 15px;
+        border-collapse: separate;
+        border-spacing: 5px;
+      }
+        main section table tr{}
+          main section table tr td ,main section table tr th{
+            padding: 5px;
+            background-color: #fff0d6;
+            vertical-align: middle;
+            text-align: center;
+          }
+              main section table tr td.photo{width: 300px; }
+              main section table tr td.cas_name{width: 80px; }
+              main section table tr td img{
+                vertical-align: bottom;
+              }
+
+  main section#nara{
+  }
+    main section#nara h2{
+      box-shadow: 1px 2px 2px 1px #aaa;
+    }
+      main section#nara div table{
+      box-shadow: 1px 3px 2px 1px #aaa;
+      width: 650px;
+      transition: all 0.5s ease-in-out;
+      }
+      main section#nara div table tr td:hover{
+      }
+      /* tr td: */
+          main section#nara div table tr td:hover{
+            transform: translate(1px,-2px);
+            box-shadow: -1px 5px 2px 1px #aaa;
+          }
+          main section#nara div table tr td.text{
+            text-align: left;
+            font-size: 14px;
+          }
+          main section#nara div table tr td img.big{
+            width: 320px;
+          }
+          main section#nara div table tr td.text p{
+            padding: 3px;
+            margin-bottom: 2px;
+          }
+          main section#nara div table tr td.text div.itemName{
+            padding: 3px;
+          }
+          main section#nara div table tr td.text div.itemName p{
+            padding: 0 ;
+            line-height: 1.0;
+          }
+          main section#nara div table tr td.text div.itemName.r1{
+            padding-left: 25px;
+            background: url(../images/event/icon_rank01.png) no-repeat 0 0;
+          }
+          main section#nara div table tr td.text div.itemName.r2{
+            padding-left: 25px;
+            background: url(../images/event/icon_rank02.png) no-repeat 0 0;
+          }
+          main section#nara div table tr td.text div.itemName.r3{
+            padding-left: 25px;
+            background: url(../images/event/icon_rank03.png) no-repeat 0 0;
+          }
+
+
+          main section#nara div table tr td.text div.itemName span{
+            float: left;
+            background: #aaa;
+            color: #fff;
+            font-size: 11px;
+            font-weight: bold;
+            line-height: 1.7;
+            margin-right: 6px;
+            padding: 0 2px;
+            text-align: center;
+            min-width: 20px;
+            height: 18px;
+          }
+          main section#nara div table tr td.text p.name{
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 25px;
+          }
+
+          main section#nara div table tr td.text p.categories{
+            color: #666;
+            line-height: 14px;
+            font-size: 12px;
+}
+
+
+            main section#nara div table tr td.text div.reviewText , div.eventInfo{
+              background: url("../images/review_balloon.png") no-repeat 28px top;
+              padding-top: 10px;
+              clear: both;
+            }
+            main section#nara div table tr td.text dl.eventInfo{
+              background-color: #eee;
+              border-radius: 5px;
+              font-size: smaller;
+              line-height: 1.4;
+              padding: 8px;
+            }
+            main section#nara div table tr td.text dl.eventInfo dt{ 
+              float: left;
+              clear: both;
+
+            }
+
+            main section#nara div table tr td.text div.reviewText p span{
+              display: inline-block;
+              color: #666;
+              font-size: 10px;
+              text-align: right;
+            }
+            main section#nara div table tr td.text p.desc{
+              font-size: 11px;
+              line-height: 16px;
+              margin-top: 8px;
+              text-align: justify;
+            }

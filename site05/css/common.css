@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/* 初期設定のリセット */
+
+body {
+  text-align: left;
+  color: #000;
+  background-color: #fff0d6;
+}
+
+div#wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff;
+}
+  header h1 {
+}
+    header h1 img {
+  vertical-align: bottom;
+}
+  header p {
+  padding: 10px 0;
+  font-size: 0.75rem;
+  text-align: center;
+}
+nav {
+  background-color: #fff;
+  /* overflow: hidden; */
+}
+  nav ul {
+  width: 950px;
+  margin: 0 auto;
+  height: 40px;
+}
+    nav ul li {
+  float: left;
+  /* display: inline-block; */
+  height: 40px;
+  margin-right: 10px;
+}
+    nav ul li:last-child {
+  /* background-color: red; */
+  margin: 0 0;
+}
+      nav ul li a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  /* background-image: url(./images/1-1.gif); */
+}
+
+main div.gotop{
+  padding: 10px 0;
+  font-size: .8rem;
+  text-align: right;
+}
+  main div.gotop a{
+    text-decoration: none;
+    color: #eb9c13;
+  }
+    main div.gotop a:hover{
+      opacity: .5;
+      text-decoration: underline;
+    }
+
+    main div.gotop a img{
+      /* transform: translate(-100%); */
+      /* position: relative; */
+      /* left: -10%; */
+    }
+
+footer {
+  height: 0px;
+  line-height: 0;
+  padding: 20px 0;
+  text-align: center;
+  font-size: medium;
+  background-color :#ffbd4f;
+  color: #fff;
+}
+
+/* rollover */
+
+nav{
+  /* background-color: #888; */
+}
+nav ul li#roll01 a {
+  background:  url(../images/nav-bind.png) 0 0;
+}
+nav ul li#roll01 a:hover {
+  background:  url(../images/nav-bind.png) 0 -40px;
+}
+nav ul li#roll01 a:active {
+  background:  url(../images/nav-bind.png) 0 -80px;
+}
+.now#roll01 a {
+  background:  url(../images/nav-bind.png) 0 -80px;
+}
+
+nav ul li#roll02 a {
+  background: url(../images/nav-bind.png) -150px 0;
+}
+nav ul li#roll02 a:hover {
+  background: url(../images/nav-bind.png) -150px -40px;
+}
+nav ul li#roll02 a:active {
+  background: url(../images/nav-bind.png) -150px -80px;
+}
+nav ul li#roll03 a {
+  background: url(../images/nav-bind.png) -300px 0;
+}
+nav ul li#roll03 a:hover {
+  background: url(../images/nav-bind.png) -300px -40px;
+}
+nav ul li#roll03 a:active {
+  background: url(../images/nav-bind.png) -300px -80px;
+}
+nav ul li#roll04 a {
+  background: url(../images/nav-bind.png) -450px 0;
+}
+nav ul li#roll04 a:hover {
+  background: url(../images/nav-bind.png) -450px -40px;
+}
+nav ul li#roll04 a:active {
+  background: url(../images/nav-bind.png) -450px -80px;
+}
+nav ul li#roll05 a {
+  background: url(../images/nav-bind.png) -600px 0;
+}
+nav ul li#roll05 a:hover {
+  background: url(../images/nav-bind.png) -600px -40px;
+}
+nav ul li#roll05 a:active {
+  background: url(../images/nav-bind.png) -600px -80px;
+}
+nav ul li#roll06 a {
+  background: url(../images/nav-bind.png) -750px 0;
+}
+nav ul li#roll06 a:hover {
+  background: url(../images/nav-bind.png) -750px -40px;
+}
+nav ul li#roll06 a:active {
+  background: url(../images/nav-bind.png) -750px -80px;
+}

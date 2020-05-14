@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>テーブルの練習</title>
+
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+
+  </head>
+
+  <body>
+
+    <div id=wrap>
+
+      <header>
+        <h1>
+          テーブルの練習
+        </h1>
+      </header>
+
+
+
+      <nav>
+        <ul>
+          <li><a href="#1">ノーマル</a></li>
+          <li><a href="#2">セルの合体</a></li>
+          <li><a href="#3">文字の位置</a></li>
+          <li><a href="#4">画像を使う</a></li>
+          <li><a href="#5">クール</a></li>
+          <li><a href="#profile">プルフィール</a></li>
+        </ul>
+      </nav>
+
+
+
+      <main>
+        <section id="1">
+          <h2>
+          ノーマルテーブル（好きな食べ物）
+          </h2>
+          <table>
+            <tr>
+              <td>名前</td>
+              <td>金城</td>
+              <td>佐藤</td>
+              <td>角井</td>
+              <td>リ</td>
+              <td>宮田</td>
+            </tr>
+            <tr>
+              <td>食べ物</td>
+              <td>オムレツ</td>
+              <td>二郎</td>
+              <td>チーズ</td>
+              <td>焼きそば</td>
+              <td>ハンバーグ</td>
+            </tr>
+          </table>
+        </section>
+
+
+
+        <section id="2">
+          <h2>セルの結合</h2>
+
+          <table>
+            <tr>
+              <td colspan="2">パクチ</td>
+              <td rowspan="2">玉ねぎ</td>
+            </tr>
+            <tr>
+              <td>トマト</td>
+              <td>ナス</td>
+                            </tr>
+          </table>
+        </section>
+
+
+
+        <section id="3">
+          <h2>
+            文字の位置とサイズを変える
+          </h2>
+
+          <table id="t-size">
+            <tr>
+              <td class="hidari ue">左上</td>
+              <td class="chuou ue">中上</td>
+              <td class="migi ue">右上</td>
+            </tr>
+            <tr>
+              <td class="hidari naka">左中</td>
+              <td class="chuou naka">中中</td>
+              <td class="migi naka">右中</td>
+            </tr>
+            <tr>
+              <td class="hidari shita">左下</td>
+              <td class="chuou shita">中下</td>
+              <td class="migi shita">右下</td>
+            </tr>
+          </table>
+        </section>
+
+
+
+        <section id="4">
+          <h2>
+            画像を使う（サイズを変更）
+          </h2>
+
+          <table class="td-size">
+            <tr>
+              <td><img src="images/genbacat/001.png" alt="1:対象を見る"></td>
+              <td><img src="images/genbacat/002.png" alt="2:指を差す&nbsp;対象をしっかり見る"></td>
+            </tr>
+            <tr>
+              <td>1:対象を見る</td>
+              <td>2:指を差す&nbsp;対象をしっかり見る</td>
+            </tr>
+          </table>
+
+          <table class="td-size">
+            <tr>
+              <td><img src="images/genbacat/003.png" alt="3:指を耳元へ&nbsp;本当に良しか考える"></td>
+              <td><img src="images/genbacat/004.png" alt="4:ヨシ！"></td>
+            </tr>
+            <tr>
+              <td>3:指を耳元へ&nbsp;本当に良しか考える</td>
+              <td>4:ヨシ！</td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="5">
+          <h2>
+            クール（線）
+          </h2>
+
+          <table class="td-border">
+            <tr>
+              <td><img src="images/genbacat/001.png" alt="1:対象を見る"></td>
+              <td><img src="images/genbacat/002.png" alt="2:指を差す&nbsp;対象をしっかり見る"></td>
+            </tr>
+            <tr>
+              <td>1:対象を見る</td>
+              <td>2:指を差す&nbsp;対象をしっかり見る</td>
+            </tr>
+          </table>
+
+          <table class="td-border">
+            <tr>
+              <td><img src="images/genbacat/003.png" alt="3:指を耳元へ&nbsp;本当に良しか考える"></td>
+              <td><img src="images/genbacat/004.png" alt="4:ヨシ！"></td>
+            </tr>
+            <tr>
+              <td>3:指を耳元へ&nbsp;本当に良しか考える</td>
+              <td>4:ヨシ！</td>
+            </tr>
+          </table>
+        </section>
+
+
+
+        <section id="profile">
+          
+          <h2>
+            プロフィール
+          </h2>
+
+          <table>
+            <tr>
+              <td id="selfpic" rowspan="13"><img src="images/myself.jpg" alt="リイショウ"></td>
+              <td>項目</td>
+              <td>値</td>
+            </tr>
+            <tr>
+              <td>名前</td>
+              <td>李煒捷</td>
+            </tr>
+            <tr>
+              <td>クラス記号</td>
+              <td>PI51A176</td>
+            </tr>
+            <tr>
+              <td>出席番号</td>
+              <td>05</td>
+            </tr>
+            <tr>
+              <td>血液型</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>性格</td>
+              <td>引き伸ばし症</td>
+            </tr>
+            <tr>
+              <td>今やりたい事</td>
+              <td>トイレに行く</td>
+            </tr>
+            <tr>
+              <td>学びたい言語</td>
+              <td>韓国語、C#</td>
+            </tr>
+            <tr>
+              <td>大切にしている言葉</td>
+              <td>fake it until you make it(なるまでに装う)</td>
+            </tr>
+            <tr>
+              <td>将来住みたい場所</td>
+              <td>一回東京、一回上海、一回ニューヨーク、そして田舎に帰る</td>
+            </tr>
+            <tr>
+              <td>好きなタイプ</td>
+              <td>かしこいかわいい</td>
+            </tr>
+            <tr>
+              <td>注意書き</td>
+              <td>何らかの価値を持つべき</td>
+            </tr>
+            <tr>
+              <td colspan="3">余裕を持つ</td>
+            </tr>
+          </table>
+
+        </section>
+
+
+
+        <section></section>
+
+
+
+        <section></section>
+
+
+
+        <section></section>
+
+
+      </main>
+
+
+
+      <footer class="chuou">
+        2019 &copy; Weijie, copyright reserved.
+      </footer>
+
+    </div>
+
+  </body>
+
+</html>
